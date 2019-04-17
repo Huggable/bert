@@ -27,7 +27,8 @@ import numpy as np
 import six
 import tensorflow as tf
 
-asdafasd=12
+
+
 class BertConfig(object):
   """Configuration for `BertModel`."""
 
