@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478a1a35-abe5-43cd-a492-2b6a71b63f8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estimator_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estimator_test.py" afterPath="$PROJECT_DIR$/estimator_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,41 +37,12 @@
       <file leaf-file-name="estimator_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/estimator_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+            <state relative-caret-position="422">
+              <caret line="80" column="50" lean-forward="true" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#91#949#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estimator.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/estimator/estimator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="471" column="29" lean-forward="false" selection-start-line="471" selection-start-column="29" selection-end-line="471" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="training.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/estimator/training.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="424" column="0" lean-forward="true" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="numpy_io.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/estimator/inputs/numpy_io.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -374,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555591744641</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2333">
+      <created>1555687993506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555687993506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -417,11 +395,12 @@
     <MESSAGE value="1609" />
     <MESSAGE value="1610" />
     <MESSAGE value="2048" />
-    <option name="LAST_COMMIT_MESSAGE" value="2048" />
+    <MESSAGE value="2333" />
+    <option name="LAST_COMMIT_MESSAGE" value="2333" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -547,14 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/estimator/inputs/numpy_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/tools/api/generator/api/estimator/inputs/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -571,20 +542,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/ops/data_flow_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="454" column="28" lean-forward="false" selection-start-line="454" selection-start-column="28" selection-end-line="454" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/estimator/inputs/numpy_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="198" column="23" lean-forward="false" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/data/ops/dataset_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="835" column="6" lean-forward="false" selection-start-line="835" selection-start-column="6" selection-end-line="835" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/data/ops/iterator_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="44" />
+          <folding>
+            <element signature="e#4141#7658#0" expanded="false" />
+            <element signature="e#7851#10829#0" expanded="false" />
+            <element signature="e#10872#11394#0" expanded="false" />
+            <element signature="e#11450#13439#0" expanded="false" />
+            <element signature="e#13478#16263#0" expanded="false" />
+            <element signature="e#16307#16681#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/estimator/estimator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="471" column="29" lean-forward="false" selection-start-line="471" selection-start-column="29" selection-end-line="471" selection-end-column="29" />
+        <state relative-caret-position="374">
+          <caret line="380" column="21" lean-forward="true" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estimator_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+        <state relative-caret-position="422">
+          <caret line="80" column="50" lean-forward="true" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#91#949#0" expanded="false" />
           </folding>
         </state>
       </provider>
