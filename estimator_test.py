@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import pandas as pd
-aaa
+
 def model_fn_wrapper():
     def model_fn(features,labels,mode):
         x = tf.cast(features['x'],dtype=tf.float64)
@@ -69,24 +69,3 @@ def train():
     estimator = tf.estimator.Estimator(model_fn=model_fn_wrapper(), model_dir='./d2')
     estimator.train(input_fn=create_fn(x_train,y_train,8), steps=3000)
     # Here we evaluate how well our model did.
-    train_metrics = estimator.evaluate(input_fn=create_fn(x_train,y_train,16),steps = 1000)
-    eval_metrics = estimator.evaluate(input_fn=create_fn(x_eval,y_eval,16),steps = 1000)
-    print("train metrics: %r" % train_metrics)
-    print("eval metrics: %r" % eval_metrics)
-    print(estimator.get_variable_names())
-    print(estimator.get_variable_value('W'))
-    print(estimator.get_variable_value('b'))
-
-    estimator2 = tf.estimator.Estimator(model_fn=model_fn_wrapper(),model_dir='./d3')
-    estimator2.train(input_fn=create_fn(x_train, y_train, 8), steps=10)
-    train_metrics = estimator2.evaluate(input_fn=create_fn(x_train,y_train,16),steps = 1000)
-    eval_metrics = estimator2.evaluate(input_fn=create_fn(x_eval,y_eval,16),steps = 1000)
-    print("train metrics: %r" % train_metrics)
-    print("eval metrics: %r" % eval_metrics)
-    print(estimator2.get_variable_names())
-    print(estimator2.get_variable_value('W'))
-    print(estimator2.get_variable_value('b'))
-
-train()
-
-
