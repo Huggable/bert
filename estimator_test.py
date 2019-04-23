@@ -87,6 +87,14 @@ def train():
     print(estimator2.get_variable_value('W'))
     print(estimator2.get_variable_value('b'))
 
-train()
+file = "./sample_text.txt"
 
+r = tf.gfile.GFile(file,"r")
+while True:
+    line = r.readline()
+    if line:
+        print(line)
+        print(type(line))
+    else:
+        break
 
