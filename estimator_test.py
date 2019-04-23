@@ -87,14 +87,26 @@ def train():
     print(estimator2.get_variable_value('W'))
     print(estimator2.get_variable_value('b'))
 
-file = "./sample_text.txt"
+file = r"D:\GitHub\bert\cased_L-12_H-768_A-12\bert_model.ckpt"
 
-r = tf.gfile.GFile(file,"r")
-while True:
-    line = r.readline()
-    if line:
-        print(line)
-        print(type(line))
-    else:
-        break
-
+# r = tf.gfile.GFile(file,"r")
+# while True:
+#     line = r.readline()
+#     if line:
+#         print(line)
+#         print(type(line))
+#     else:
+#         break
+#
+# dataset = tf.data.TFRecordDataset(file).batch(1).repeat()
+#
+# it = dataset.make_one_shot_iterator()
+# tensor = it.get_next()
+# sess = tf.Session()
+# a = sess.run(tensor)
+# print(a)
+# a = sess.run(tensor)
+# print(a)
+init_vars = tf.train.list_variables(file)
+for x in init_vars:
+    print(x)
